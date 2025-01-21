@@ -1,0 +1,11 @@
+name: ibis-geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - pip
+  - pip:
+    - duckdb
+    - 'ibis-framework[duckdb,geospatial]'
+    - lonboard
