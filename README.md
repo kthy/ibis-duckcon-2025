@@ -12,7 +12,7 @@ How to download and cite the slides:
 Create an enviornment with mamba, conda or the package manager of your choice. See dependencies at `env/ibis-ddb-geo-demo.yaml`.    
 
 ```
-mamba env create -f ibis-ddb-geo-demo.yaml
+mamba env create -f env/ibis-ddb-geo-demo.yaml
 mamba activate ibis-geo
 ```
 
