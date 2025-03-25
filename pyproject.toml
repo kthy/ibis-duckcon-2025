@@ -1,0 +1,13 @@
+[project]
+name = "ibis-duckcon-2025"
+version = "0"
+description = ""
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "duckdb>=1.2.1,<2",
+    "ibis-framework[duckdb,geospatial]>=10.3.1,<11",
+    "jupyterlab>=4.3.6,<5",
+    "lonboard>=0.10.4,<0.11",
+    "shapely>=2.0.7,<3",
+]
